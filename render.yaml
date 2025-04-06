@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: orange-disease-app
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
